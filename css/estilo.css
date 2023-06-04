@@ -22,6 +22,36 @@ figure{
 figure img {
     width: 100%;
 }
+.matriz-musicdot{ 
+    width: 550px;
+    align-items: center;
+    align-self: last baseline;
+}
+.familia-tupfeln{
+    width: 275px;
+}
+
+.largura-550 {
+
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+.coluna-esquerda{
+    width: 60%;
+}
+.coluna-direita {
+    width: 275px;
+    float: right;
+}
+
 
   h1{
     color: #3D3D3D;
