@@ -42,6 +42,10 @@ figure img {
     flex-flow: row wrap;
 }
 
+form div {
+    padding: 10px; 
+   
+}
 
 .coluna-esquerda{
     width: 60%;
@@ -64,4 +68,21 @@ figure img {
     font-size: 2em;
     font-weight: bold;
   }
-  
+  input {
+    
+    width: 500px;
+    height: 30px;
+}
+
+textarea {
+
+    width: 500px;
+    height: 300px;
+
+}
+button{
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    background-color: white;
+}
