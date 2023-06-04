@@ -6,7 +6,6 @@ body {
     margin-right: auto;
   }
 
-
   figcaption{
     padding-top: 10px;
     color: lightgrey;
@@ -51,14 +50,18 @@ figure img {
     width: 275px;
     float: right;
 }
-
-
   h1{
     color: #3D3D3D;
     background-color: #E1EDF2;
   }
   h2{
-    border-bottom: 2px solid #000
-    
+    border-bottom: 2px solid #000  
+  }
+  .contato{
+    color: #3D3D3D;
+    background-color: #E1EDF2;
+    border-bottom: 0;
+    font-size: 2em;
+    font-weight: bold;
   }
   
