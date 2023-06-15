@@ -1,33 +1,35 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>Contato</title>
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico">
          <link rel="stylesheet" href="css/estilo.css">
+         <script type="text/javascript" src="js/validar.js"></script>
     </head>
     <body>
         <img src="img/logo.svg" alt="">
         <h1>Entre em contato</h1>
-        <div>
-            <form action="/action_page.php" method="get">
-                
+        
+            <form onsubmit="return validarFormulario()">
                 <div>
-                    <input type="text" placeholder="..." id="fname" name="fname">
-                    <label for="fname">nome</label>
+                    <input type="text" id="nome" placeholder="Nome">
+                    <label for="nome">nome</label>
                 </div>
                 <div>
-                    <input type="text" placeholder="(xx)xxxx-xxxx" id="lname" name="lname">
-                    <label for="lname">fone</label>
+                    <input type="text"  id="telefone" placeholder="(xx)xxxx-xxxx">
+                    <label for="fone">fone</label>
                 </div>
                 <div>
-                    <input type="text"placeholder=fulano@gmail.com id="ename" name="ename">
-                    <label for="ename">email</label>
+                    <input type="text"placeholder=fulano@gmail.com id="email">
+                    <label for="mail">email</label>
                 </div>
                 <div>
-                    <textarea name="msg"placeholder="deixe sua mensagem" id="" cols="30" rows="10"></textarea>
+                    <textarea placeholder="deixe sua mensagem" id="opiniao"></textarea>
                 </div>
-                
-                
+                <div>
+                    <button type="submit">enviar</button> 
+                </div>
               </form>
-        </div>
-        <button>enviar</button> 
+
     </body>
 </html>
